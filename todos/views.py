@@ -8,3 +8,7 @@ def login(request):
     return render(request, "todos/login.html")
 
 
+def ronalde(request):
+    return render(request, "todos/ronalde.html")
+
+
